@@ -213,7 +213,7 @@ if(trivia.set[trivia.num].correct==number){
     }
     trivia.gifs.push(trivia.corgifs);
 
-    document.getElementById("pic").src = trivia.correctgifs[0];
+    document.getElementById("pic").src = trivia.correctgifs[trivia.corgifs];
 
     console.log(trivia.corgifs);
     document.getElementById("showanswer1").innerHTML = "The Correct Answer is: "+trivia.set[trivia.num].answers[trivia.set[trivia.num].correct];
