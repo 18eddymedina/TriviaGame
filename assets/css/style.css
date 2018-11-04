@@ -1,5 +1,5 @@
 body{
-    background-image: url("waterFall.jpg");
+  /*  background-image: url(assets/images/waterFall.jpg);*/
 height:90%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -21,8 +21,7 @@ height:90%;
 .modal-content {
   height: 70%;
   display: block;
-  background-color: rgb(32, 191, 240);
-  background-image: url("waterFall.jpg");
+  background-color: white;
   margin: 3% auto;
   margin-top:0px;
   margin-bottom:0px;
@@ -41,7 +40,7 @@ height:90%;
     min-height: 600px;
     border: 1px solid #0086F1;
     background: white;
-    opacity: .85;
+    opacity: .95;
 
 }
 .bottom{
